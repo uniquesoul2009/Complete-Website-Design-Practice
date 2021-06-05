@@ -1,0 +1,42 @@
+#reg [type=text],
+#reg [type=password],
+#reg [type=date],
+#reg [type=email],
+#reg select{
+  width: 50%;
+  padding: 12px 20px;
+  margin: 8px 0px;
+  border: 1px solid #CCC;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+#reg a{
+  color:#507065;
+  text-decoration: none;
+}
+#reg a:hover{
+  color: white;
+}
+.signup-button [type=submit]{
+  width: 30%;
+  background-color: #609475;
+  color: white;
+  padding: 20px 14px;
+  margin: 20px 0px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 20px;
+}
+.signup-button [type=submit]:hover{
+  background-color: black;
+}
+.signup-header{
+  padding-top: 100px;
+}
+.regform{
+  background-color: #f2f2f2;
+  width: 50%;
+  margin: 30px auto;
+  border-radius: 10px;
+}

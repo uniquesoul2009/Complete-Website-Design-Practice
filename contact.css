@@ -1,0 +1,71 @@
+/*Contact Us page*/
+.mycontact{
+  padding: 120px 20px;
+}
+.mapouter{
+  position: fixed;
+  margin: 0 auto;
+}
+form{
+  max-width: 300px;
+  min-width: 250px;
+  padding: 10px 50px;
+  border: 3px solid grey;
+  border-radius: 10px;
+  background-color: white;
+  margin: 0 auto;
+}
+.mypopup h2{
+  background-color: #609475;
+  padding: -10px 0px;
+  color: white;
+  margin: -10px -50px;
+}
+.mypopup input[type=text], input[type=email]{
+  width: 82%;
+  padding: 10px;
+  margin-top: 30px;
+  border: 2px solid grey;
+  padding-left: 40px;
+}
+.mypopup textarea{
+  background-image: url(images/textareaicon.png);
+  background-repeat: no-repeat;
+  background-position: 1px 1px;
+  width: 82%;
+  height: 90px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  padding: 10px;
+  padding-left: 40px;
+  border: 2px solid grey;
+  resize:none;
+}
+#popupcontact{
+  margin: 50px auto;
+}
+#name{
+  background-image: url(images/nameicon.png);
+  background-repeat: no-repeat;
+  background-position: 5px 7px;
+}
+#email{
+  background-image: url(images/emailicon.png);
+  background-repeat: no-repeat;
+  background-position: 2px 2px;
+}
+#submit{
+  width: 100%;
+  display: block;
+  text-align: center;
+  background-color: #609475;
+  padding: 10px 0px;
+  cursor: pointer;
+  border-radius: 10px;
+  font-weight: bold;
+  font-size: 20px;
+  color: #fff;
+}
+#submit:hover{
+  background-color: black;
+}

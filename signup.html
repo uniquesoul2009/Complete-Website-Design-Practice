@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="keywords" content="HTML,CSS,Front-end,Web developers,Programming,Bootcamp,Learning">
+  <meta name="author" content="Ritu Singh">
+  <meta name="Front End Web Developer" content="Complete Web Design">
+  <meta name="description" content="It is my personal website.">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="frontend.css">
+  <link rel="stylesheet" type="text/css" href="signup.css">
+  <link rel="icon" href="images/favicon.ico">
+  <script type="text/javascript" src="frontend.js"></script>
+  <script type="text/javascript" src="js/jquery.js"></script>
+  <script type="text/javascript" src="js/declarativeToggle.js"></script>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Caveat&family=Gloria+Hallelujah&family=Homemade+Apple&family=Marck+Script&family=Parisienne&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Pangolin&display=swap" rel="stylesheet">
+  <title>Front End Design</title>
+</head>
+<body>
+<header>
+  <div class="headermenu clear">
+    <nav class="navbar clear">
+      <img src="images/mainlogo.png" alt="Front End Logo">
+      <input type="text" name="search" class="mysearchbar" size="20" placeholder="search here.....">
+      <input type="submit" value="Search" size="2.5" class="mysearchbutton">
+      <ul class="mymenu">
+        <li class="drop">
+          <a href="javascript:void(0)">Menu</a>
+          <div class="drop-content">
+            <a href="index.html">Home</a>
+            <a href="media.html">Art Arena</a>
+            <a href="blog.html">Blogs</a>
+            <a href="signup.html">Signup</a>
+            <a href="login.html">Login</a>
+            <a href="contact.html">Contact</a>
+            <a href="about.html">About</a>
+          </div>
+        </li>
+        <li><a href="media.html">Art Arena</a></li>
+        <li><a href="blog.html">Blogs</a></li>
+        <li><a href="signup.html" class="active">Signup</a></li>
+        <li><a href="login.html">Login</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="about.html">About</a></li>
+      </ul>
+    </nav>
+    <span data-toggle-target=".navbar" class="toggle-btn">
+      <img src="images/menu.png" alt="menu toggle button">
+    </span>
+  </div>
+</header>
+<div class="site-container">
+<div class="signup-header">
+  <h1>Signup</h1>
+</div>
+<div id="register" class="regform">
+  <form id="reg" action="login.html" method="post">
+    <h2>Already a member? <a href="login.html">Login</a></h2>
+    <p>
+      <label for="firstname" class="fname">First Name</label>
+      <input id="name" name="firstname" type="text" placeholder="Hello" required>
+    </p>
+    <p>
+      <label for="lastname" class="lname">Last Name</label>
+      <input id="name" name="lastname" type="text" placeholder="World" required>
+    </p>
+    <p>
+      <label for="emailsignup" class="mail">Your Email</label>
+      <input id="email" name="emailsignup" type="email" placeholder="example@domain.com" required>
+    </p>
+    <p>
+      <label for="passwordsignup" class="passwd">Password</label>
+      <input id="password" name="passwordsignup" type="password" placeholder="***********" required min="8">
+    </p>
+    <p>
+      <label for="passwordsignup" class="passwd">Confirm</label>
+      <input id="password" name="passwordsignup" type="password" placeholder="***********" required min="8">
+    </p>
+    <p>
+      <label for="country">Country</label>
+      <select id="country" name="country">
+        <option value="India">India</option>
+        <option value="USA">USA</option>
+        <option value="South Korea">South Korea</option>
+        <option value="Germany">Germany</option>
+        <option value="England">England</option>
+        <option value="Australia">Australia</option>
+      </select>
+    </p>
+    <p>
+      <label for="age" class="birth">Date of Birth</label>
+      <input type="date" name="DOB" required>
+    </p>
+    <br>
+    <p>
+      <label for="course" class="learn">Courses</label>
+      <input type="checkbox" name="course1" value="JavaScript">JavaScript
+      <input type="checkbox" name="course2" value="Python">Python
+      <input type="checkbox" name="course3" value="CSS">CSS
+    </p>
+    <br>
+    <p>
+      <label for="sex" class="robot">Gender</label>
+      <input type="radio" name="gender" value="Male">Male
+      <input type="radio" name="gender" value="Female">Female
+      <input type="radio" name="gender" value="Other">Other
+    </p>
+    <p class="signup-button">
+      <input type="submit" value="Sign Up">
+    </p>
+  </form>
+</div>
+</div>
+<footer>
+  <div class="bottom-site">
+    <a href="https://wwww.facebook.com" class="footer-link">Facebook</a>
+    <a href="https://wwww.linkedin.com" class="footer-link">Linkedin</a>
+    <a href="https://www.instagram.com" class="footer-link">Instagram</a>
+    <a href="mailto:uniquesoul2009@google.com" class="footer-link">Email</a>
+    <p class="copyright">&copy;2021 Ritu Singh @Solo from Unique Soul</p>
+  </div>
+</footer>
+</body>
+</html>

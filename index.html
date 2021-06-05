@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="keywords" content="HTML,CSS,Front-end,Web developers,Programming,Bootcamp,Learning">
+  <meta name="author" content="Ritu Singh">
+  <meta name="Front End Web Developer" content="Complete Web Design">
+  <meta name="description" content="It is my personal website.">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="frontend.css">
+  <link rel="stylesheet" type="text/css" href="popup.css">
+  <link rel="icon" href="images/favicon.ico">
+  <script type="text/javascript" src="frontend.js"></script>
+  <script type="text/javascript" src="js/jquery.js"></script>
+  <script type="text/javascript" src="js/declarativeToggle.js"></script>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Caveat&family=Gloria+Hallelujah&family=Homemade+Apple&family=Marck+Script&family=Parisienne&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Pangolin&display=swap" rel="stylesheet">
+  <title>Front End Design</title>
+</head>
+<body>
+<header>
+  <div class="headermenu clear">
+    <nav class="navbar clear">
+      <img src="images/mainlogo.png" alt="Front End Logo">
+      <input type="text" name="search" class="mysearchbar" size="20" placeholder="search here.....">
+      <input type="submit" value="Search" size="2.5" class="mysearchbutton">
+      <ul class="mymenu">
+        <li class="drop">
+          <a href="javascript:void(0)" class="active">Menu</a>
+          <div class="drop-content">
+            <a href="index.html">Home</a>
+            <a href="media.html">Art Arena</a>
+            <a href="blog.html">Blogs</a>
+            <a href="signup.html">Signup</a>
+            <a href="login.html">Login</a>
+            <a href="contact.html">Contact</a>
+            <a href="about.html">About</a>
+          </div>
+        </li>
+        <li><a href="media.html">Art Arena</a></li>
+        <li><a href="blog.html">Blogs</a></li>
+        <li><a href="signup.html">Signup</a></li>
+        <li><a href="login.html">Login</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="about.html">About</a></li>
+      </ul>
+    </nav>
+    <span data-toggle-target=".navbar" class="toggle-btn">
+      <img src="images/menu.png" alt="menu toggle button">
+    </span>
+  </div>
+</header>
+<div class="site-container">
+  <div class="backgroundimage">
+    <br><br>
+    <h1>Unique Soul</h1>
+    <h2>Hello unique soul's........Welcome to my world!</h2>
+  </div>
+
+  <div class="middle-site">
+    <div class="first-middle-site">
+      <img src="images/dovegif.gif" alt="Believe in peace">
+      <h2>Peaceful Environment</h2>
+      <br>
+      <p class="middle-site-fontstyling">I hope this webpage finds you peace, happiness, creativeness and increases your productivity and enhance your mindset.
+        The only thing I wanted to do with this website is to find a place to express myself and create a place for other's to explore themselves
+        through my experiences.</p>
+    </div>
+    <hr>
+   <div class="second-middle-site">
+     <h2>Things you can find on this website</h2>
+     <div class="our-services">
+       <img src="images/work1.jpg" alt="Reading" class="sevice-1-img">
+       <h3>Reader's Place</h3>
+       <br>
+       <p class="second-middle-site-fontstyling">In this section you can find some of my work that I created by myself and some of the reviews and summary releated to the books that I read.The reviews are
+           based on my interests, and I truly respect each writer and their work. </p>
+     </div>
+     <br>
+     <div class="our-services">
+       <img src="images/work2.jpg" alt="Art" class="sevice-2-img">
+       <h3>Art Empire</h3>
+       <br>
+       <p class="second-middle-site-fontstyling">In this section you will see my art creations and hope you get inspired by my creations and create your own creation.Some ideas are being taken by google which
+           has been created by various artist. </p>
+     </div>
+     <br>
+     <div class="our-services">
+       <img src="images/work3.jpg" alt="Technology" class="sevice-3-img">
+       <h3>Technology Hub</h3>
+       <br>
+       <p class="second-middle-site-fontstyling">I am a technical enthusiast and always tend to learn various technologies, languages and softwares.I have also worked on various projects.You can
+          contact me for creating your own websites.</p>
+     </div>
+     <br>
+     <div class="our-services">
+       <img src="images/work4.jpg" alt="Blogs" class="sevice-4-img">
+       <h3>Freetime Blogging</h3>
+       <br>
+       <p class="second-middle-site-fontstyling">This section is just because I love listening music of different genre and also different languages.
+          So I am just sharing out my love and choices to you all.Please feel free to mesaage me for any suggestions on new music releases.</p>
+     </div>
+   <br>
+   <hr>
+   <div class="third-middle-site">
+     <h2>Need any Help?</h2>
+     <h3>Hit the contact box and drop a message</h3>
+     <p class="contact-message">I will surely reply to all your messages as soon as possible.</p>
+    <!-- <a class="mybutton" href="mailto: uniquesoul2009@gmail.com">Contact Us</a> -->
+   </div>
+  </div>
+  <!-- Lavering the power of javascript-->
+  <div class="mypopup">
+    <div id="messagebox">
+      <!-- Starting Box Popup -->
+      <div id="popupcontact">
+        <!-- Contact Form -->
+        <form action="#" id="form" method="post" name="form">
+          <img src="images/closeicon.png" id="close" onclick="close_form();">
+          <h2>Contact Us</h2>
+          <input type="text" id="name" name="name" placeholder="Name">
+          <input type="email" name="email" id="email" placeholder="Email">
+          <textarea id="msg" name="message" placeholder="Message"></textarea>
+          <a href="javascript:input_fields();" id="submit">Send Message</a>
+        </form>
+      </div>
+      <!-- This is end of popup form -->
+    </div>
+    <a class="mybutton" id="popup" onclick="show_form();">Contact Us</a>
+    <!-- This is the end of popup message -->
+  </div>
+
+  <div class="bottom-site">
+    <a href="https://wwww.facebook.com" class="footer-link">Facebook</a>
+    <a href="https://wwww.linkedin.com" class="footer-link">Linkedin</a>
+    <a href="https://www.instagram.com" class="footer-link">Instagram</a>
+    <a href="mailto:uniquesoul2009@google.com" class="footer-link">Email</a>
+    <p class="copyright">&copy;2021 Ritu Singh @Solo from Unique Soul</p>
+  </div>
+</div>
+<footer>
+
+</footer>
+</body>
+</html>

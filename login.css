@@ -1,0 +1,52 @@
+body{
+  background-color: #609475;
+}
+a{
+  text-decoration: none;
+}
+h1{
+    padding-top: 100px;
+    color: white;
+  }
+.recoverpassword{
+  padding-top: 20px;
+}
+.recoverpassword a:hover{
+  color: darkgreen;
+}
+.join{
+  padding-bottom: 20px;
+}
+.join a:hover{
+  color: darkgreen;
+}
+.welcome{
+  background-color: #f2f2f2;
+  width: 50%;
+  margin: 30px auto;
+  border-radius: 10px;
+}
+#loginform [type=submit]{
+  width: 30%;
+  background-color: #609475;
+  color: white;
+  padding: 20px 14px;
+  margin: 20px 0px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 20px;
+}
+#loginform [type=submit]:hover{
+  background-color: black;
+}
+
+#loginform [type=password],
+#loginform [type=email]{
+  width: 50%;
+  padding: 12px 20px;
+  margin: 8px 0px;
+  border: 1px solid #CCC;
+  border-radius: 4px;
+  box-sizing: border-box;
+}

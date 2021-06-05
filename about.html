@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="keywords" content="HTML,CSS,Front-end,Web developers,Programming,Bootcamp,Learning">
+  <meta name="author" content="Ritu Singh">
+  <meta name="Front End Web Developer" content="Complete Web Design">
+  <meta name="description" content="It is my personal website.">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="frontend.css">
+  <link rel="stylesheet" type="text/css" href="about.css">
+  <link rel="icon" href="images/favicon.ico">
+  <script type="text/javascript" src="frontend.js"></script>
+  <script type="text/javascript" src="js/jquery.js"></script>
+  <script type="text/javascript" src="js/declarativeToggle.js"></script>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Caveat&family=Gloria+Hallelujah&family=Homemade+Apple&family=Marck+Script&family=Parisienne&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Pangolin&display=swap" rel="stylesheet">
+  <title>Front End Design</title>
+</head>
+<body>
+<header>
+  <div class="headermenu clear">
+    <nav class="navbar clear">
+      <img src="images/mainlogo.png" alt="Front End Logo">
+      <input type="text" name="search" class="mysearchbar" size="20" placeholder="search here.....">
+      <input type="submit" value="Search" size="2.5" class="mysearchbutton">
+      <ul class="mymenu">
+        <li class="drop">
+          <a href="javascript:void(0)">Menu</a>
+          <div class="drop-content">
+            <a href="index.html">Home</a>
+            <a href="media.html">Art Arena</a>
+            <a href="blog.html">Blogs</a>
+            <a href="signup.html">Signup</a>
+            <a href="login.html">Login</a>
+            <a href="contact.html">Contact</a>
+            <a href="about.html">About</a>
+          </div>
+        </li>
+        <li><a href="media.html">Art Arena</a></li>
+        <li><a href="blog.html">Blogs</a></li>
+        <li><a href="signup.html">Signup</a></li>
+        <li><a href="login.html">Login</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="about.html" class="active">About</a></li>
+      </ul>
+    </nav>
+    <span data-toggle-target=".navbar" class="toggle-btn">
+      <img src="images/menu.png" alt="menu toggle button">
+    </span>
+  </div>
+</header>
+<div class="site-container">
+  <div>
+    <h1 class="about-header">Solo</h1>
+  </div>
+  <div>
+    <img src="images/profile.jpg" alt="Profile Picture" class="profile-image">
+  </div>
+  <div class="styling-introduction">
+    <p>Hi I am Solo an unique soul who loves to live life to fullest.
+      I am an experimental person who loves to try new things, explore new places and do something creative and innovative.
+      I am also a technical enthusiast and loves learning different languages and softwares. I love making mine and other's environment full of love, passion, happiness,
+      dreams, hope and full of smiles. </p>
+  </div>
+  <hr>
+  <div class="styling-quote">
+      <blockquote>" Treat other people in your life as audience and make yourself the biggest star in your life "</blockquote>
+  </div>
+    <hr>
+    <h2>Things I believe in</h2>
+    <div class="styling">
+      <p>Authenticity</p>
+      <blockquote class="stylingquote">"Because you should never cheat yourself"</blockquote>
+      <p>Simplicity</p>
+      <blockquote class="stylingquote">"Because being simple will tend you towards kindness"</blockquote>
+      <p>Drive</p>
+      <blockquote class="stylingquote">"Because it will take you to new places"</blockquote>
+      <p>Adventure</p>
+      <blockquote class="stylingquote">"Because it will make you experience new things and will help you explore youself"</blockquote>
+      <p>Mindfulness</p>
+      <blockquote class="stylingquote">"Because it will make you calm and happy"</blockquote>
+      <p>Appreciation</p>
+      <blockquote class="stylingquote">"Because you and everyone else need it to believe in what you do"</blockquote>
+    </div>
+    <hr>
+  <div class="styling-quote">
+    <blockquote>" We started from nothing, we can make it again.......We should keep knocking on the door......Fighting!!!!!! "</blockquote>
+  </div>
+  <hr>
+</div>
+<footer>
+  <div class="bottom-site">
+    <a href="https://wwww.facebook.com" class="footer-link">Facebook</a>
+    <a href="https://wwww.linkedin.com" class="footer-link">Linkedin</a>
+    <a href="https://www.instagram.com" class="footer-link">Instagram</a>
+    <a href="mailto:uniquesoul2009@google.com" class="footer-link">Email</a>
+    <p class="copyright">&copy;2021 Ritu Singh @Solo from Unique Soul</p>
+  </div>
+</footer>
+</body>
+</html>
